@@ -13,12 +13,15 @@ const ListTodos = ({todos, deleteTodo, handleCheckboxUpdate}) => {
               checked={todo.done}
               onChange={() => handleCheckboxUpdate(todo.id)}
             />
-            {todo.task}
-              <button
-                className={styles.deleteBtn}
-                onClick={() => deleteTodo(todo.id)}>
-                Delete
-              </button>
+            <span className={todo.done ? styles.todoCompleted : ""}>
+              {todo.task}
+              </span>
+            <button
+              className={styles.deleteBtn}
+              onClick={() => deleteTodo(todo.id)}
+            >
+              Delete
+            </button>
           </li>
         ))}
       </ul>
