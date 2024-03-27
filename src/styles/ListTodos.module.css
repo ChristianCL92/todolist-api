@@ -1,0 +1,22 @@
+.listContainer {
+    list-style: none;
+    font-size: 2rem;
+
+}
+
+.todoCheckbox {
+    margin-top: 0.6rem;
+    height: 2rem;
+    width: 3.5rem;
+}
+
+.deleteBtn {
+   cursor: pointer;
+   height: 2rem;
+   width: 4rem;
+   margin-bottom: 0.5rem;
+   background-color: rgb(233, 20, 20);
+   color: white;
+   font-size: 1.1rem;
+   
+}

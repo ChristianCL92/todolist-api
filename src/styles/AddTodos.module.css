@@ -1,0 +1,15 @@
+.addContainer {
+    padding-bottom: 2rem;
+}
+
+.addTaskInput {
+    width: 400px;
+     height: 3rem; 
+}
+
+.addTodoBtn {
+    margin-left: 0.2rem;
+    height: 3rem;
+    width: 6rem;
+    cursor: pointer;
+}
