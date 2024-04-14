@@ -4,7 +4,7 @@ const AddTodos = ({addNewTodo}) => {
 
 const[task, setTask] = useState("");
 const addTask = () => {
-  if (task.trim("").length > 0) {
+  if (task.trim().length > 0) {
       addNewTodo(task);
       setTask('');
   } 
